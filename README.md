@@ -11,7 +11,8 @@ Commands for JIDU 6201, 6401, 6601, 6701
         cat /proc/mtd
 
 **Backup the existing stock firmware so you can restore later if you want.
-**New Terminal in PC:
+**Run these commands one by one**
+**New Terminal in PC:**
 
         ssh root@192.168.31.1 "cat /dev/mtd1" > mtd1_BL2.bin
         ssh root@192.168.31.1 "cat /dev/mtd2" > mtd2_uboot_env.bin
