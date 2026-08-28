@@ -52,9 +52,9 @@ Backup the existing stock firmware so you can restore later if you want.
 
 
 
-===========================================
-Flashing OpenWRT on a Qualcomm-based Jio Router (6j11)
-Commands for JIDU 6111, 6411, 6611, 6811 and 6911
+
+**Flashing OpenWRT on a Qualcomm-based Jio Router (6j11)
+Commands for JIDU 6111, 6411, 6611, 6811 and 6911**
 ===========================================
 **To get List of partitions**
 
