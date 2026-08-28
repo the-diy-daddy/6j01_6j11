@@ -1,10 +1,8 @@
 Flash Openwrt in Jio Router JIDU6401, JIDU6201, JIDU6601, JIDU6701, JIDU6111, JIDU6411, JIDU6611, JIDU6811, JIDU6911 using SSH
 
 
-================================================
-Flashing OpenWRT on a Mediatek-based Jio Router (6j01)
-Commands for JIDU 6201, 6401, 6601, 6701
-================================================
+*Flashing OpenWRT on a Mediatek-based Jio Router (6j01)
+Commands for JIDU 6201, 6401, 6601, 6701*
 
 ***To get List of partitions***
 
