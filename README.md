@@ -13,13 +13,18 @@ cat /proc/mtd
 **Backup the existing stock firmware so you can restore later if you want.
 **New Terminal in PC:
 
-ssh root@192.168.31.1 "cat /dev/mtd1" > mtd1_BL2.bin
-ssh root@192.168.31.1 "cat /dev/mtd2" > mtd2_uboot_env.bin
-ssh root@192.168.31.1 "cat /dev/mtd3" > mtd3_Factory.bin
+        ssh root@192.168.31.1 "cat /dev/mtd1" > mtd1_BL2.bin
+        ssh root@192.168.31.1 "cat /dev/mtd2" > mtd2_uboot_env.bin
+        ssh root@192.168.31.1 "cat /dev/mtd3" > mtd3_Factory.bin
+
 ssh root@192.168.31.1 "cat /dev/mtd4" > mtd4_FIP.bin
+
 ssh root@192.168.31.1 "cat /dev/mtd5" > mtd5_ubi.bin
+
 ssh root@192.168.31.1 "cat /dev/mtd6" > mtd6_ubi2.bin
+
 ssh root@192.168.31.1 "cat /dev/mtd7" > mtd7_MFG.bin
+
 ssh root@192.168.31.1 "cat /dev/mtd8" > mtd8_Jio_Reserved.bin
 
 
