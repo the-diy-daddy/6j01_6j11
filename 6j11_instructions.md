@@ -35,8 +35,12 @@ After Reset Data, Power off your router and connect using UART. You need to conn
  
  **Password: TjJRa@pt6D)F3zg1**
 
-**To Flash your router run these commands after initializing tftp server and setting static IP, use my video ***
+
+
+***To Flash your router run these commands after initializing tftp server and setting static IP, use my video ***
+
 **Run these commands one by one**
+
 **Be sure to change "initramfs" file name as per the firmware file you downloaded.**
 
     setenv ipaddr 192.168.1.2
