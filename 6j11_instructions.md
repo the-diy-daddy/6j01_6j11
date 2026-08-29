@@ -76,3 +76,56 @@ Commands for JIDU 6111, 6411, 6611, 6811 and 6911**
 **If you lose UART shell access, you may also need to restore the boot args:**
 
 setenv bootargs 'console=ttyMSM0,115200n8 cnss2.bdf_pci1=0xb7 cnss2.bdf_integrated=0x30'
+
+
+Hardware:
+====================
+
+* Amazon Links:
+
+  * USB to TTL:
+
+    CH340: https://link.amazon/B07kyg0Rn
+
+    Pl2303: https://link.amazon/B0073xdIi
+
+    CP2102: https://link.amazon/B0eSUfxf9
+
+  * Jumper Wiire:
+  
+    All-in-One: https://link.amazon/B07gTkj5n
+
+  * LAN Cable: 
+  
+    Fedus: https://link.amazon/B0bjv9LX9
+
+    Amazon Basics: https://link.amazon/B0cLhxLV5
+
+* Cheaper Alternative (Flyrobo Links)
+
+  * USB to TTL:
+  
+    CH340: https://www.flyrobo.in/ch340g-usb-ttl-converter-for-arduino-nano-raspberry-pi?tracking=bSmZ5Z0xdRD8gf6uqCDQyE6CxXhukGWcnG9rtkBIc935CWt5scfJxd3Bbvj9lA6v
+
+    Pl2303: https://www.flyrobo.in/pl2303-pl2303hx-usb-ttl-converter-module?tracking=bSmZ5Z0xdRD8gf6uqCDQyE6CxXhukGWcnG9rtkBIc935CWt5scfJxd3Bbvj9lA6v
+
+    CP2102: https://www.flyrobo.in/cp2102-5-pin-usb-ttl-uart-serial-converter-module?tracking=bSmZ5Z0xdRD8gf6uqCDQyE6CxXhukGWcnG9rtkBIc935CWt5scfJxd3Bbvj9lA6v
+  
+
+  * Jumper Wiire:
+  
+     All-in-One: https://www.flyrobo.in/combo-3-type-jumper-cables-f-f-f-m-m-m?tracking=bSmZ5Z0xdRD8gf6uqCDQyE6CxXhukGWcnG9rtkBIc935CWt5scfJxd3Bbvj9lA6v
+
+Software:
+
+* TFTP Server: https://github.com/PJO2/tftpd64/releases/
+
+* Putty: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
+* USB to TTL Driver:
+
+  CH340 Driver: https://sparks.gogo.co.nz/ch340.html
+
+  Pl2303 Driver: https://github.com/johnstevenson/pl2303-legacy/releases/tag/1.1.0
+
+  CP2102 Driver: https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
