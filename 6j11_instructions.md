@@ -31,9 +31,9 @@ After Reset Data, Power off your router and connect using UART. You need to conn
 
  **Default Credentials** 
  
- **Username: jidu6j11**
+    Username: jidu6j11
  
- **Password: TjJRa@pt6D)F3zg1**
+    Password: TjJRa@pt6D)F3zg1
 
 
 
@@ -53,7 +53,7 @@ After Reset Data, Power off your router and connect using UART. You need to conn
 
  **Open 192.168.1.1 in your browser and login to LuCI**
  
- ** upgrade system either through LuCI, or by transferring the file to /tmp/ and running:**
+ *upgrade system either through LuCI, or by transferring the file to /tmp/ and running:*
 
 **New Terminal in PC:**
 
