@@ -60,4 +60,6 @@ Backup the existing stock firmware so you can restore later if you want.
 
 
 
+For 6J11 visit:
 
+https://github.com/the-diy-daddy/6j01_6j11/blob/main/6j11_instructions.md
