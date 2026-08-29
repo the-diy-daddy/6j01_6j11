@@ -33,22 +33,29 @@ Backup the existing stock firmware so you can restore later if you want.
 
 **Router ssh Terminal:**
 
-        ubidetach -m 6
-        ubiformat /dev/mtd6 -y -f /tmp/openwrt-mediatek-filogic-jiorouter_ax6000-jidu6j01-initramfs-factory.ubi
-        fw_setenv bootcmd 'ubi detach; ubi part ubi2; ubi read 46000000 kernel; fdt addr $(fdtcontroladdr); fdt rm /signature; bootm 0x46000000'
-        fw_setenv dual_boot.current_slot 1
-        fw_setenv dual_boot.slot_0_invalid 1
-        fw_setenv dual_boot.slot_1_invalid 1
-        fw_setenv ipaddr
-        reboot
+    ubidetach -m 6
+    
+    ubiformat /dev/mtd6 -y -f /tmp/openwrt-mediatek-filogic-jiorouter_ax6000-jidu6j01-initramfs-factory.ubi
+    
+    fw_setenv bootcmd 'ubi detach; ubi part ubi2; ubi read 46000000 kernel; fdt addr $(fdtcontroladdr); fdt rm /signature; bootm 0x46000000'
+    
+    fw_setenv dual_boot.current_slot 1
+    
+    fw_setenv dual_boot.slot_0_invalid 1
+    
+    fw_setenv dual_boot.slot_1_invalid 1
+    
+    fw_setenv ipaddr
+    
+    reboot
 
 **New Terminal in PC:**
 
-        scp -O openwrt-mediatek-filogic-jiorouter_ax6000-jidu6j01-squashfs-sysupgrade.bin root@192.168.1.1:/tmp/
+    scp -O openwrt-mediatek-filogic-jiorouter_ax6000-jidu6j01-squashfs-sysupgrade.bin root@192.168.1.1:/tmp/
 
 **Router ssh Terminal:**
 
-        sysupgrade /tmp/openwrt-mediatek-filogic-jiorouter_ax6000-jidu6j01-squashfs-sysupgrade.bin
+    sysupgrade /tmp/openwrt-mediatek-filogic-jiorouter_ax6000-jidu6j01-squashfs-sysupgrade.bin
 
 
 
@@ -58,25 +65,25 @@ Commands for JIDU 6111, 6411, 6611, 6811 and 6911**
 ===========================================
 **To get List of partitions**
 
-        cat /proc/mtd
+    cat /proc/mtd
 
 **Backup the existing stock firmware so you can restore later if you want.**
 
-        ssh root@192.168.1.1 "cat /dev/mtd23" > mtd23_rootfs.bin
-        ssh root@192.168.1.1 "cat /dev/mtd24" > mtd24_rootfs1.bin
+    ssh root@192.168.1.1 "cat /dev/mtd23" > mtd23_rootfs.bin
+    ssh root@192.168.1.1 "cat /dev/mtd24" > mtd24_rootfs1.bin
 
 **To Flash Run:**
 
 **New Terminal in PC:**
 
-        scp -O openwrt-qualcommbe-ipq95xx-jiorouter-ax6000-jidu6*11-initramfs-uImage.itb root@192.168.1.1:/tmp/
+    scp -O openwrt-qualcommbe-ipq95xx-jiorouter-ax6000-jidu6*11-initramfs-uImage.itb root@192.168.1.1:/tmp/
 
 **Router ssh Terminal:**
 
-        jioMfgData get all
+    jioMfgData get all
 **save the real output somewhere safe offline, and never share it publicly**
 
-        jioMfgData init
+    jioMfgData init
 
  **Default Credentials After Reset**
  
@@ -84,22 +91,27 @@ Commands for JIDU 6111, 6411, 6611, 6811 and 6911**
  
  **Password: TjJRa@pt6D)F3zg1**
 
-        setenv ipaddr 192.168.1.2
-        setenv serverip 192.168.1.1
-        tftpboot openwrt-qualcommbe-ipq95xx-jiorouter-ax6000-jidu6j11-initramfs-uImage.itb
+    setenv ipaddr 192.168.1.2
+    setenv serverip 192.168.1.1
+    tftpboot openwrt-qualcommbe-ipq95xx-jiorouter-ax6000-jidu6j11-initramfs-uImage.itb
+
+7. Boot the Initramfs Image
+
+       bootm
+
  
 **New Terminal in PC:**
 
-        scp -O openwrt-qualcommbe-ipq95xx-jiorouter-ax6000-jidu6j11-squashfs-sysupgrade.bin root@192.168.1.1:/tmp/
+    scp -O openwrt-qualcommbe-ipq95xx-jiorouter-ax6000-jidu6j11-squashfs-sysupgrade.bin root@192.168.1.1:/tmp/
 
  ** upgrade system either through LuCI, or by transferring the file to /tmp/ and running:**
 
-        sysupgrade /tmp/openwrt-qualcommbe-ipq95xx-jiorouter-ax6000-jidu6j11-squashfs-sysupgrade.bin
+    sysupgrade /tmp/openwrt-qualcommbe-ipq95xx-jiorouter-ax6000-jidu6j11-squashfs-sysupgrade.bin
 
  **Fix “No Kernel Found” Error (Some IDU Models)**
 
-        setenv mtdids nand0=nand0
-        setenv mtdparts 'mtdparts=nand0:0xE100000@0x1700000(rootfs)'
+    setenv mtdids nand0=nand0
+    setenv mtdparts 'mtdparts=nand0:0xE100000@0x1700000(rootfs)'
 
 
 
