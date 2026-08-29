@@ -25,7 +25,7 @@ Commands for JIDU 6111, 6411, 6611, 6811 and 6911**
 After Reset Data, Power off your router and connect using UART. You need to connect your Router's UART pins to any USB-to-TTL Adaptor or ESP32 and use Putty to access Uboot
 ==================================================
 
-**You can watch my UART videos: https://www.youtube.com/@the_diy_daddy
+**You can watch my UART videos: https://www.youtube.com/@the_diy_daddy**
 
 **Interrupt boot sequence and it will ask you for username and password** 
 
@@ -37,7 +37,7 @@ After Reset Data, Power off your router and connect using UART. You need to conn
 
 
 
-***To Flash your router run these commands after initializing tftp server and setting static IP, use my video ***
+*To Flash your router run these commands after initializing tftp server and setting static IP, use my video.*
 
 **Run these commands one by one**
 
