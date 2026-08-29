@@ -22,7 +22,8 @@ Commands for JIDU 6111, 6411, 6611, 6811 and 6911**
 
     jioMfgData init
 
-**After Reset Data, Power off your router and connect using UART. You need to connect your Router's UART pins to any USB-to-TTL Adaptor or ESP32 and use Putty to access Uboot**
+After Reset Data, Power off your router and connect using UART. You need to connect your Router's UART pins to any USB-to-TTL Adaptor or ESP32 and use Putty to access Uboot
+==================================================
 
 **You can watch my UART videos: https://www.youtube.com/@the_diy_daddy
 
@@ -63,8 +64,9 @@ Commands for JIDU 6111, 6411, 6611, 6811 and 6911**
 
 
 
+
+Restore stock partitions from backup
 ========================================
-**4. Restore stock partitions from backup:**
 
         mtd -e /dev/mtd23 write /tmp/mtd23_rootfs.bin /dev/mtd23
         mtd -e /dev/mtd24 write /tmp/mtd24_rootfs1.bin /dev/mtd24
