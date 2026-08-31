@@ -45,8 +45,12 @@ You need to connect your Router's UART pins to any USB-to-TTL Adapter or ESP32 a
 
 **Be sure to change "initramfs" file name as per the firmware file you downloaded.**
 
-    setenv ipaddr 192.168.1.2
-    setenv serverip 192.168.1.1
+    setenv ipaddr 192.168.1.1
+    
+    setenv serverip 192.168.1.2
+
+**Update file name in below command as per the firmware file you downloaded**
+    
     tftpboot openwrt-qualcommbe-ipq95xx-jiorouter-ax6000-jidu6*11-initramfs-uImage.itb
 
 7. Boot the Initramfs Image
