@@ -53,11 +53,11 @@ You need to connect your Router's UART pins to any USB-to-TTL Adapter or ESP32 a
     
     tftpboot openwrt-qualcommbe-ipq95xx-jiorouter-ax6000-jidu6*11-initramfs-uImage.itb
 
-7. Boot the Initramfs Image
+**Boot the Initramfs Image**
+    
+    bootm
 
-       bootm
-
- **Open 192.168.1.1 in your browser and login to LuCI**
+**Open 192.168.1.1 in your browser and login to LuCI**
  
  *upgrade system either through LuCI, or by transferring the file to /tmp/ and running:*
 
@@ -80,12 +80,12 @@ You need to connect your Router's UART pins to any USB-to-TTL Adapter or ESP32 a
 Restore stock partitions from backup
 ========================================
 
-        mtd -e /dev/mtd23 write /tmp/mtd23_rootfs.bin /dev/mtd23
-        mtd -e /dev/mtd24 write /tmp/mtd24_rootfs1.bin /dev/mtd24
+    mtd -e /dev/mtd23 write /tmp/mtd23_rootfs.bin /dev/mtd23
+    mtd -e /dev/mtd24 write /tmp/mtd24_rootfs1.bin /dev/mtd24
 
 **To fully revert to stock boot behavior, also fix the boot command:**
 
-        setenv bootcmd 'bootipq'
+    setenv bootcmd 'bootipq'
         
 **If you lose UART shell access, you may also need to restore the boot args:**
 
