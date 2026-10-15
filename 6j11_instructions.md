@@ -27,6 +27,11 @@ After Reset Data, Power off your router and connect using UART.
 You need to connect your Router's UART pins to any USB-to-TTL Adapter or ESP32 and use Putty to access Uboot
 ==================================================
 
+**Check Uart Pinouts**
+
+https://github.com/the-diy-daddy/6j01_6j11/blob/main/uart_pins/uart_read.md
+
+
 **You can watch my UART videos: https://www.youtube.com/@the_diy_daddy**
 
 **Interrupt boot sequence and it will ask you for username and password** 
@@ -68,6 +73,11 @@ You need to connect your Router's UART pins to any USB-to-TTL Adapter or ESP32 a
  ** upgrade system either through LuCI, or by transferring the file to /tmp/ and running:**
 
     sysupgrade /tmp/openwrt-qualcommbe-ipq95xx-jiorouter-ax6000-jidu6j11-squashfs-sysupgrade.bin
+
+
+***DONE***
+
+
 
  **Fix “No Kernel Found” Error (Some IDU Models)**
 
