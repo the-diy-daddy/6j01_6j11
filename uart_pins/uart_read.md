@@ -7,3 +7,5 @@
 ![Alternative Text](https://github.com/the-diy-daddy/6j01_6j11/blob/main/uart_pins/JIDU6611.jpg)
 
 ![Alternative Text](https://github.com/the-diy-daddy/6j01_6j11/blob/main/uart_pins/JIDU6811.jpg)
+
+![Alternative Text](https://github.com/the-diy-daddy/6j01_6j11/blob/main/uart_pins/JIDU6911.jpg)
