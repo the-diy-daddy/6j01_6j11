@@ -27,7 +27,7 @@ After Reset Data, Power off your router and connect using UART.
 You need to connect your Router's UART pins to any USB-to-TTL Adapter or ESP32 and use Putty to access Uboot
 ==================================================
 
-**Check Uart Pinouts**
+**Check UART Pinouts**
 
 https://github.com/the-diy-daddy/6j01_6j11/blob/main/uart_pins/uart_read.md
 
