@@ -11,11 +11,11 @@ Flash Openwrt in Jio Router JIDU6401, JIDU6201, JIDU6601, JIDU6701, JIDU6111, JI
 
 *For Password Trick visit:*
 
-[https://github.com/the-diy-daddy/6j01_6j11/blob/main/6j11_instructions.md](https://github.com/the-diy-daddy/6j01_6j11/blob/main/6j01_6j11_password_trick.md)
+[https://github.com/the-diy-daddy/6j01_6j11/blob/main/6j01_6j11_password_trick.md](https://github.com/the-diy-daddy/6j01_6j11/blob/main/6j01_6j11_password_trick.md)
 
 *For UART Pinouts visit:*
 
-[https://github.com/the-diy-daddy/6j01_6j11/blob/main/6j11_instructions.md](https://github.com/the-diy-daddy/6j01_6j11/blob/main/uart_pins/uart_read.md)
+[https://github.com/the-diy-daddy/6j01_6j11/blob/main/uart_pins/uart_read.md](https://github.com/the-diy-daddy/6j01_6j11/blob/main/uart_pins/uart_read.md)
 
 
 ****Flashing OpenWRT on a Mediatek-based Jio Router (6j01)
