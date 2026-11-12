@@ -51,3 +51,10 @@ or
 
     https://github.com/the-diy-daddy/6j01_6j11/blob/main/6j11_instructions.md
 
+
+
+---
+
+## License
+
+This project is licensed under a **Custom Personal-Use License** (Commercial use and video creation are strictly prohibited) — see the [LICENSE](LICENSE) file for details.
