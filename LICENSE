@@ -1,29 +1,40 @@
-GNU GENERAL PUBLIC LICENSE
-Version 3, 29 June 2007
+Copyright (c) 2026 The DIY Daddy (https://github.com/the-diy-daddy)
+All Rights Reserved.
 
-Copyright (C) 2026 The DIY Daddy (the-diy-daddy)
-https://github.com/the-diy-daddy/6j01_6j11
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software, scripts, and associated documentation files (the "Repository"), 
+to use, copy, and modify the Repository strictly for PERSONAL, NON-COMMERCIAL 
+purposes, subject to the following strict conditions:
 
-Everyone is permitted to copy and distribute verbatim copies
-of this license document, but changing it is not allowed.
+1. NON-COMMERCIAL USE ONLY: The contents of this Repository may not be used for 
+   commercial purposes, sold, repackaged, or distributed for profit or financial 
+   gain in any manner.
 
-Jio Router JIDU 6J01/6J11 OpenWrt Flashing Scripts
-  Copyright (C) 2026 The DIY Daddy (the-diy-daddy)
+2. STRICT PROHIBITION ON VIDEO CREATION: You are strictly prohibited from creating, 
+   recording, publishing, or monetizing any video content (including but not limited 
+   to YouTube, TikTok, Instagram, Facebook, or any other media platform) that 
+   demonstrates, reads, adapts, or features the contents, scripts, or instructions 
+   provided in this Repository. 
+   
+   The exclusive right to create, publish, and monetize video content based on or 
+   utilizing this Repository is reserved solely for the original author, 
+   "The DIY Daddy".
 
-  This program is free software: you can redistribute it and/or modify
-  it under the terms of the GNU General Public License as published by
-  the Free Software Foundation, either version 3 of the License, or
-  (at your option) any later version.
+3. ATTRIBUTION: Any permitted personal, non-commercial sharing or redistribution of 
+   this Repository must include this exact license text and provide clear, visible 
+   credit to the original author, "The DIY Daddy", with a link to the original 
+   GitHub repository.
 
-  This program is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  GNU General Public License for more details.
+4. NO DERIVATIVE WORKS FOR PUBLIC DISTRIBUTION: You may modify the scripts for your 
+   own personal hardware, but you may not publish modified versions of this 
+   Repository for public download without explicit written permission from the author.
 
-  You should have received a copy of the GNU General Public License
-  along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-Also add information on how to contact you by electronic and paper mail.
+THE REPOSITORY IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
+CONNECTION WITH THE REPOSITORY OR THE USE OR OTHER DEALINGS IN THE REPOSITORY.
 
   The DIY Daddy
   https://github.com/the-diy-daddy/6j01_6j11
