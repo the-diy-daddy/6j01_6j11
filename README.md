@@ -1,22 +1,23 @@
 Flash Openwrt in Jio Router JIDU6401, JIDU6201, JIDU6601, JIDU6701, JIDU6111, JIDU6411, JIDU6611, JIDU6811, JIDU6911 using SSH
 =====================
-
+---
 *For 6J11 visit:*
 
 [https://github.com/the-diy-daddy/6j01_6j11/blob/main/6j11_instructions.md](https://github.com/the-diy-daddy/6j01_6j11/blob/main/6j11_instructions.md)
-
+---
 *For 6101 UART commands visit:*
 
 [https://github.com/the-diy-daddy/6j01_6j11/blob/main/6101_commands.md](https://github.com/the-diy-daddy/6j01_6j11/blob/main/6101_commands.md)
-
+---
 *For Password Trick visit:*
 
 [https://github.com/the-diy-daddy/6j01_6j11/blob/main/6j01_6j11_password_trick.md](https://github.com/the-diy-daddy/6j01_6j11/blob/main/6j01_6j11_password_trick.md)
-
+---
 *For UART Pinouts visit:*
 
 [https://github.com/the-diy-daddy/6j01_6j11/blob/main/uart_pins/uart_read.md](https://github.com/the-diy-daddy/6j01_6j11/blob/main/uart_pins/uart_read.md)
 
+---
 
 ****Flashing OpenWRT on a Mediatek-based Jio Router (6j01)
 Commands for JIDU 6201, 6401, 6601, 6701****
@@ -88,6 +89,10 @@ and
     sysupgrade /tmp/openwrt-mediatek-filogic-jiorouter_ax6000-jidu6j01-squashfs-sysupgrade.bin
 
 
+---
 
+## License
+
+This project is licensed under a **Custom Personal-Use License** (Commercial use and video creation are strictly prohibited) — see the [LICENSE](LICENSE) file for details.
 
 
