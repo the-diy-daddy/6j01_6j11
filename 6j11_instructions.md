@@ -153,3 +153,9 @@ Software:
   Pl2303 Driver: https://github.com/johnstevenson/pl2303-legacy/releases/tag/1.1.0
 
   CP2102 Driver: https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
+
+  ---
+
+## License
+
+This project is licensed under a **Custom Personal-Use License** (Commercial use and video creation are strictly prohibited) — see the [LICENSE](LICENSE) file for details.
