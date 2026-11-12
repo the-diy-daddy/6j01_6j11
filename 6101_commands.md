@@ -27,3 +27,9 @@ Make sure that the usb-ttl adapter is set to 3.3v (connect jumper plug between v
     bootm
 
 7. Flash the sysupgrade.bin File using Luci.
+
+---
+
+## License
+
+This project is licensed under a **Custom Personal-Use License** (Commercial use and video creation are strictly prohibited) — see the [LICENSE](LICENSE) file for details.
