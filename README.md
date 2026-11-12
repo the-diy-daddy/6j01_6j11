@@ -22,14 +22,17 @@ Flash Openwrt in Jio Router JIDU6401, JIDU6201, JIDU6601, JIDU6701, JIDU6111, JI
 Commands for JIDU 6201, 6401, 6601, 6701****
 ==========================================================
 
-***To get U-Boot Password (Uboot password is required to flash router using UART Method***
+***To get U-Boot Password (Uboot password is required to flash router using UART Method or to restore it later)***
 
     strings /dev/mtd7 | grep -i pass
 
-or
+and
 
     /usr/bin/mfg_data get bootpass
 
+and
+
+    strings /dev/mtd7
 
 
 *Backup the existing stock firmware so you can restore later if you want.*
