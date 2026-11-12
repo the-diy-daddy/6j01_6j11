@@ -11,3 +11,9 @@
 ![Alternative Text](https://github.com/the-diy-daddy/6j01_6j11/blob/main/uart_pins/JIDU6811.jpg)
 
 ![Alternative Text](https://github.com/the-diy-daddy/6j01_6j11/blob/main/uart_pins/JIDU6911.jpg)
+
+
+---
+## License
+
+This project is licensed under a **Custom Personal-Use License** (Commercial use and video creation are strictly prohibited) — see the [LICENSE](LICENSE) file for details.
