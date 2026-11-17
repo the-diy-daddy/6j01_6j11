@@ -13,6 +13,8 @@ Commands for JIDU 6111, 6411, 6611, 6811 and 6911**
 
     ssh root@192.168.31.1 "cat /dev/mtd23" > mtd23_rootfs.bin
     ssh root@192.168.31.1 "cat /dev/mtd24" > mtd24_rootfs1.bin
+    ssh root@192.168.31.1 "cat /dev/mtd27" > mtd27_mfg.bin
+    # Similarly backup all partitions
 
 **Fetch important Data and save the real output somewhere safe offline, and never share it publicly**
 
