@@ -61,6 +61,7 @@ and
 **New Terminal in PC:**
 
     # change firmware file name if you're flashing 6101
+    
     scp -O openwrt-mediatek-filogic-jiorouter_ax6000-jidu6j01-initramfs-factory.ubi root@192.168.31.1:/tmp/
 
 **Router ssh Terminal:**
@@ -68,6 +69,7 @@ and
     ubidetach -m 6
 
     # change firmware file name if you're flashing 6101
+    
     ubiformat /dev/mtd6 -y -f /tmp/openwrt-mediatek-filogic-jiorouter_ax6000-jidu6j01-initramfs-factory.ubi
     
     fw_setenv bootcmd 'ubi detach; ubi part ubi2; ubi read 46000000 kernel; fdt addr $(fdtcontroladdr); fdt rm /signature; bootm 0x46000000'
