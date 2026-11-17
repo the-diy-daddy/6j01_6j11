@@ -19,8 +19,8 @@ Flash Openwrt in Jio Router JIDU6401, JIDU6201, JIDU6601, JIDU6701, JIDU6111, JI
 
 ---
 
-****Flashing OpenWRT on a Mediatek-based Jio Router (6j01)
-Commands for JIDU 6201, 6401, 6601, 6701****
+**** SSH Commands for Flashing OpenWRT on a Mediatek-based Jio Router (6j01)
+JIDU 6201, 6401, 6601, 6701 (These commands do work on 6101 but make sure to change firmware files)****
 ==========================================================
 
 ***To get U-Boot Password (Uboot password is required to flash router using UART Method or to restore it later. So, keep this information safe and do not share)***
