@@ -38,7 +38,7 @@ Commands, unlock guides, helper scripts, and UART pinout references for unlockin
 | Family | Supported Models | Guide | Notes |
 | :--- | :--- | :--- | :--- |
 | **`6101`** | `JIDU6101` | [`6101_commands.md`](./6101_commands.md) | MediaTek Filogic — supports SSH (where available) and UART/TFTP flashing across stock firmwares |
-| **`6j01`** | `JIDU6201`, `JIDU6401`, `JIDU6601`, `JIDU6701` | [Below](#flashing-openwrt-on-6j01-via-ssh) | MediaTek Filogic — flash via SSH on supported stock firmware, or fall back to UART (`6101` method) |
+| **`6j01`** | `JIDU6201`, `JIDU6401`, `JIDU6601`, `JIDU6701` | [`6j01_via_ssh.md`](./6j01_via_ssh.md) | MediaTek Filogic — flash via SSH on supported stock firmware, or fall back to UART (`6101` method) |
 | **`6j11`** | `JIDU6111`, `JIDU6411`, `JIDU6611`, `JIDU6811`, `JIDU6911` | [`6j11_instructions.md`](./6j11_instructions.md) | Follow the dedicated `6j11` guide for SSH unlock, full partition backups, and flashing |
 
 ---
