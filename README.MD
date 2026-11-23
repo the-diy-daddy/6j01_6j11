@@ -20,7 +20,7 @@ Commands, unlock guides, helper scripts, and UART pinout references for unlockin
 | Resource | Description |
 | :--- | :--- |
 | **[Interactive Master-Chart](https://the-diy-daddy.github.io/jidu-openwrt-flashing-guide/)** | Visual step-by-step decision chart for choosing the right method per model & stock firmware |
-| **[6j01 SSH Flashing Guide](./6j01-via-ssh)** | Complete backup and SSH flashing commands for **`6j01`** models (below) |
+| **[6j01 SSH Flashing Guide](./6j01-via-ssh.md)** | Complete backup and SSH flashing commands for **`6j01`** models (below) |
 | **[`6j11_instructions.md`](./6j11_instructions.md)** | Full SSH & UART flashing instructions and partition backup steps for **`6j11`** models |
 | **[`6101_commands.md`](./6101_commands.md)** | U-Boot / TFTP & UART serial flashing commands for **`JIDU6101`** (also works as UART fallback for `6j01`) |
 | **[`6j01_6j11_password_trick.md`](./6j01_6j11_password_trick.md)** | Stock firmware password trick for unlocking root SSH access |
