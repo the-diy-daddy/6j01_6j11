@@ -105,4 +105,4 @@ Once connected, you will have a `root` shell on your router!
 Now that you have root SSH access, back up your stock partitions and proceed to the flashing guide for your router model:
 
 * **`6j01` Models (`JIDU6201`, `JIDU6401`, `JIDU6601`, `JIDU6701`):** Follow [`6j01_via_ssh.md`](./6j01_via_ssh.md).
-* **`6j11` Models (`JIDU6111`, `JIDU6411`, `JIDU6611`, `JIDU6811`, `JIDU6911`):** Follow [`https://youtu.be/7xkd3qDdVFA`](./https://youtu.be/7xkd3qDdVFA)).
+* **`6j11` Models (`JIDU6111`, `JIDU6411`, `JIDU6611`, `JIDU6811`, `JIDU6911`):** Follow this video https://youtu.be/7xkd3qDdVFA
