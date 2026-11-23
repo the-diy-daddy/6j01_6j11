@@ -13,7 +13,7 @@ On stock firmware `R3.0` and newer (such as `R3.2`, `R3.2.3`, and `R3.2.6`), ear
 ## Step 1: Connect to the Router & Check Firmware Version
 
 1. Connect your PC to the router via an Ethernet cable (recommended) or Wi-Fi.
-2. Open a web browser and go to **`http://192.168.31.1`**.
+2. Open a web browser and go to **`https://192.168.31.1`**.
 3. Complete the initial router setup and create a login password (for example: `Admin@07`).
 4. Log in to the router's web dashboard and check the **current firmware version**.
 5. Confirm that your router is running firmware **`R3.0` or above** (e.g., `R3.2`, `R3.2.3`, or `R3.2.6`) before continuing.
@@ -104,5 +104,5 @@ Once connected, you will have a `root` shell on your router!
 
 Now that you have root SSH access, back up your stock partitions and proceed to the flashing guide for your router model:
 
-* **`6j01` Models (`JIDU6201`, `JIDU6401`, `JIDU6601`, `JIDU6701`):** Follow the [6j01 SSH Flashing Guide in `README.md`](./README.md#flashing-openwrt-on-6j01-via-ssh).
-* **`6j11` Models (`JIDU6111`, `JIDU6411`, `JIDU6611`, `JIDU6811`, `JIDU6911`):** Follow [`6j11_instructions.md`](./6j11_instructions.md).
+* **`6j01` Models (`JIDU6201`, `JIDU6401`, `JIDU6601`, `JIDU6701`):** Follow [`6j01_via_ssh.md`](./6j01_via_ssh.md).
+* **`6j11` Models (`JIDU6111`, `JIDU6411`, `JIDU6611`, `JIDU6811`, `JIDU6911`):** Follow [`https://youtu.be/7xkd3qDdVFA`](./https://youtu.be/7xkd3qDdVFA)).
