@@ -111,5 +111,5 @@ Now that you have root SSH access, back up your stock partitions and proceed to 
 
 ## Credits
 
-* **Mahendra Mali (`for the original python script 'maxshel.py'`):**
+* **Mahendra Mali (`for the original python script 'maxshell.py'`):**
 * **The_DIY_Daddy (`for few edits in the original python script 'maxshel.py'`):**
