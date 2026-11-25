@@ -109,7 +109,13 @@ Now that you have root SSH access, back up your stock partitions and proceed to 
 
 ---
 
+## License
+
+This project is licensed under a **Custom Personal-Use License** (Commercial use and video creation are strictly prohibited) — see the [LICENSE](LICENSE) file for details.
+
+---
+
 ## Credits
 
 * **Mahendra Mali (`for the original python script 'maxshell.py'`):**
-* **The_DIY_Daddy (`for few edits in the original python script 'maxshel.py'`):**
+* **The_DIY_Daddy (`for modifying the original python script 'maxshel.py' to make it work on latest firmwares`):**
