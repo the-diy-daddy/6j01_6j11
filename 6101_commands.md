@@ -1,5 +1,5 @@
-***UART Commands for both 6101 and 6J01***
-
+**UART Commands for both 6101 and 6J01**
+---
 1. Set a static IP on the ethernet interface.
 
 2. Setup TFTP server.
